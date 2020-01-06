@@ -9,7 +9,7 @@ const routes = [
    path: '/:status?',
    name: 'item-list',
    component: ItemList,
- }
+ },
 ];
 
 const router = new VueRouter({
